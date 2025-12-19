@@ -52,5 +52,38 @@ This repository is focused on:
 - Understand **Git workflows** used in real projects
 - Gain confidence using **command-line tools**
 - Prepare for **professional software development environments**
+---
+📅 Day 3 – 18 December
 
+🔧 Git & GitHub
+
+Continued practicing Git and GitHub commands Created and organized folders for structured learning Added programs into Level 1 and Level 2 folders Tracked file changes using git status Committed and pushed code using git add, git commit, and git push Improved understanding of maintaining clean commits and folder hierarchy
+
+💻 Core csharp – Programming Elements
+
+✅ Level 1 (Basic Knowledge)
+
+Solved Level 1 programs focused on strengthening csharp fundamentals, including:
+
+User input handling
+
+Variables and data types
+
+Basic arithmetic operations
+
+Applying simple formulas
+
+Improving logical thinking
+
+✅ Level 2 (Further Problem Solving)
+
+Solved Level 2 programs focused on advanced understanding, including:
+
+Operator precedence
+
+Combining multiple operations
+
+Logical expressions
+
+Writing structured and optimized code
 
