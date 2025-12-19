@@ -53,7 +53,7 @@ This repository is focused on:
 - Gain confidence using **command-line tools**
 - Prepare for **professional software development environments**
 ---
-📅 Day 3 – 18 December
+📅 19th December
 
 🔧 Git & GitHub
 
