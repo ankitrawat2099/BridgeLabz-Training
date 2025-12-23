@@ -138,7 +138,6 @@ Gained confidence in writing decision-based programs
 
 Improved logical thinking and flow control
 
-Better understanding of choosing the right control structure
 ----
 .
 
