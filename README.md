@@ -156,3 +156,31 @@ Solved array problems to improve problem-solving skills, accuracy, and coding ef
 Strengthened understanding of array manipulation
 Improved logical thinking and data processing skills
 Gained confidence in handling real-world problems using C#
+---
+📅 24th December
+
+💻 Core C# – Methods & Problem Solving
+
+Methods & Advanced Programming Concepts
+Focused on user-defined methods, recursive methods, static methods, and .NET standard library usage in C#. Practiced all three levels of assignments emphasizing modular and reusable code design.
+
+✅ Level 1, Level 2 & Level 3 (Methods Practice)
+Worked on multiple C# programs focusing on:
+
+Writing reusable methods
+
+Passing parameters and returning values
+
+Applying logic using loops, conditions, arrays, and Math functions
+
+Improving problem-solving approach through level-wise complexity
+
+🧠 Review Task
+
+Solved code which is asked by mentor
+
+🧩 Problem Solving (LeetCode)
+
+Solved 2 LeetCode problems
+
+Focused on logical thinking, edge cases, and efficient solutions
