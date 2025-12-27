@@ -208,3 +208,10 @@ Gained clarity on Date and Time usage in C#
 Enhanced logical and scenario-based problem-solving skills
 
 Continued consistent practice for coding proficiency
+
+------
+📅 27th December
+
+💻 LeetCode – Reverse Integer
+
+Solved the Reverse Integer problem using basic math operations. Practiced digit extraction, number reversal, handling negative values, and avoiding integer overflow. Improved logic and problem-solving skills.
