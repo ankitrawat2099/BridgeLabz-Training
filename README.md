@@ -215,3 +215,11 @@ Continued consistent practice for coding proficiency
 💻 LeetCode – Reverse Integer
 
 Solved the Reverse Integer problem using basic math operations. Practiced digit extraction, number reversal, handling negative values, and avoiding integer overflow. Improved logic and problem-solving skills.
+
+-----
+
+📅 28th December
+
+💻 LeetCode – Max Consecutive Ones
+
+Solved the problem of finding the maximum number of consecutive 1s in a binary array by iterating through the array and maintaining a running count of continuous ones and the maximum count found.
