@@ -226,8 +226,7 @@ Solved the problem of finding the maximum number of consecutive 1s in a binary a
 
 ----
 
-🗓️ 29th December 2025
-✅ Work Done
+🗓️ 29th December
 
 Arrays – Temperature Analyzer
 
