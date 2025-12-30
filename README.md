@@ -267,18 +267,23 @@ Palindrome number check
 -----
 
 📅 Date: 30th December 2025
+
 📌 Overview
+
 This repository contains C# console-based practice programs focusing on arrays, string operations, methods, and menu-driven logic for beginner-level learning.
+
 🏫 Library Management System
 Menu-driven system with Admin and User roles
 Admin can add, remove, update, and initialize books
 Users can display books, search by partial title, and checkout books
 Implemented using arrays only (no database)
+
 📝 EduQuiz – Student Quiz Grader
 Compares student answers with correct answers using arrays
 Case-insensitive answer checking
 Displays Correct / Incorrect feedback
 Calculates score, percentage, and Pass/Fail result
+
 🧠 LeetCode Problems Solved
 Plus One (Array digit manipulation)
 
