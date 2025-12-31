@@ -298,16 +298,19 @@ Today I worked on scenario-based problems, OOPS concepts, and C# constructors, a
 🧩 Scenario-Based Programs
 
 Implemented three real-world scenario programs using OOPS concepts, methods, and user input:
+
 🔹 Bank Account Manager
 
 Deposit, Withdraw, and Check Balance operations
 Admin and User menu-driven system
 Overdraft prevention logic
+
 🔹 Bill / Invoice Generator
 
 Parsed bill input using string operations
 Extracted item names and prices
 Calculated total bill amount
+
 🔹 Math Functions
 
 Performed mathematical operations using methods
@@ -325,6 +328,7 @@ Parameterized constructors
 Constructor chaining
 Copy constructors
 Implemented using simple and easy-to-understand code
+
 📌 Branch: oops-csharp-practice
 
 🧠 LeetCode Practice
@@ -332,5 +336,6 @@ Implemented using simple and easy-to-understand code
 Solved 1 LeetCode problem
 Focused on array manipulation and logic building
 Converted solution into proper C# syntax
+
 📌 Branch: core-csharp-practice
 
