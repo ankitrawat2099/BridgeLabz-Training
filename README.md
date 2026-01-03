@@ -424,27 +424,27 @@ Solved Bus scenario based problem
 
 This README documents the **11 OOPS inheritance problems** I practiced and pushed today. The focus was on understanding different types of inheritance in **C#**
 
-# ✅ Assisted Problems (Basic Inheritance)
+ ✅ Assisted Problems (Basic Inheritance)
 1. Animal Hierarchy
 2. Employee Management System
 3. Vehicle and Transport System
-# ✅ Single Inheritance Problems
+ ✅ Single Inheritance Problems
 4. Library Management (Book & Author)
 5. Smart Home Devices
-# ✅ Multilevel Inheritance Problems
+ ✅ Multilevel Inheritance Problems
 6. Online Retail Order Management
 7. Educational Course Hierarchy
-# ✅ Hierarchical Inheritance Problems
+ ✅ Hierarchical Inheritance Problems
 8. Bank Account Types
 9. School System Roles
-# ✅ Hybrid Inheritance (Using Interfaces)
+ ✅ Hybrid Inheritance (Using Interfaces)
 10. Restaurant Management System
 11. Vehicle Management System
 * Branch:'oops-csharp-practice'
 
  ✅ Additional LeetCode Practice
 
-# Find the Duplicate Number (LeetCode)
+ Find the Duplicate Number (LeetCode)
 * Problem: Find the duplicate element in an integer array
 * Concept: Array frequency counting
 * Branch: `core-csharp-practice`
