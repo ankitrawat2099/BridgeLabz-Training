@@ -445,4 +445,26 @@ This README documents the **11 OOPS inheritance problems** I practiced and pushe
 #### ✅ Additional LeetCode Practice
 Find Duplicate Number (LeetCode)
 * Branch: `core-csharp-practice`
+
+
+  -------------
+
+  ### 📅 Date: 05 January 2026
   
+#### ✅ Hospital Patient Management System
+
+Concepts: Patient, Doctor, Bill classes
+
+OOP: Encapsulation (Properties), Abstraction (Interface IPayable), Inheritance (InPatient, OutPatient : Patient), Polymorphism (DisplayInfo)
+
+#### ✅ Vehicle Rental Application
+
+Concepts: Vehicle, Bike, Car, Truck, Customer
+
+Access Modifiers: protected fields
+
+Interface: IRentable with CalculateRent(int days)
+
+### ✅ Additional LeetCode Practice
+
+Find Peak Element
