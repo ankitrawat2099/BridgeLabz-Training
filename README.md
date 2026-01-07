@@ -502,3 +502,26 @@ The following systems were designed and implemented: 1.Employee Management Syste
 🧩 LeetCode Practice
 
 Peak Index in Mountain Array This solution is implemented in C# and pushed to the 📌Branch:core-csharp-practice
+
+------
+
+### 📅 Date 7th January 2026
+
+### Employee Wage Computation Program (C#)
+
+*Problem Statement:
+
+This project implements the Employee Wage Computation Problem using C# and OOP concepts. It calculates employee wages based on attendance, work type, and working hours as defined in use cases UC1–UC6. Use Cases UC1: Check Employee Attendance UC2: Calculate Daily Wage UC3: Part-Time Employee Wage UC4: Switch Case Implementation UC5: Monthly Wage Calculation UC6: Wage Calculation with Conditions 📂Branch:oops-csharp-practice
+
+## 📂Topic
+
+*Linked List (Singly, Doubly & Circular) *Practiced real-world problems using linked lists
+
+# Problems Covered Today (9 Linked List Questions)
+
+*1.Singly Linked List – Student Record Management *2. Doubly Linked List – Movie Management System *3. Circular Linked List – Task Scheduler *4. Singly Linked List – Inventory Management System *5. Doubly Linked List – Library Management System *6. Circular Linked List – Round Robin CPU Scheduling *7. Singly Linked List – Social Media Friend Connections *8. Doubly Linked List – Undo/Redo Text Editor *9. Circular Linked List – Online Ticket Reservation System
+
+#  LeetCode Problem
+
+*Remove Duplicates from Sorted Linked List Problem: Remove duplicates from a sorted singly linked list 
+📂Branch:datastructure-csharp-practice
