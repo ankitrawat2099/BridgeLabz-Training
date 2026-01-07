@@ -17,6 +17,7 @@ public sealed class EmployeeMenu
         {
             Console.WriteLine("\n----- Employee Wage Menu -----");
             Console.WriteLine("1. Check Attendance");
+             Console.WriteLine("2. Daily Wage");
             Console.WriteLine("0. Exit");
             Console.Write("Enter choice: ");
             //take choice input from user
@@ -26,6 +27,9 @@ public sealed class EmployeeMenu
             {
                 case 1:
                     employeeUtility.CheckAttendance();
+                    break;
+                case 2:
+                    employeeUtility.CalculateDailyWage();
                     break;
                 
             }
