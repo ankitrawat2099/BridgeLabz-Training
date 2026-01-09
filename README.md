@@ -543,3 +543,41 @@ Two Sum problem solved using HashMap (optimized single-pass solution). *Pushed i
 ###### Scenario-Based Question: Smart Home Automation System
 
 Concepts: Appliance, Light, Fan, AC Interface: IControllable (methods: TurnOn(), TurnOff()) Polymorphism: Each appliance behaves differently when turned on/off, e.g., Light vs AC. *pushed in branch: oops-csharp-practice.
+
+-----
+
+### 📅Date 9th January 2026
+This repository contains implementations of various sorting algorithms and data structure problems in C#, along with LeetCode and scenario-based design problems.
+
+### 🔹 Sorting Algorithms Implemented
+1. Bubble Sort – Sort Student Marks
+2. Insertion Sort – Sort Employee IDs
+3. Merge Sort – Sort Book Prices
+4. Quick Sort – Sort Product Prices
+5. Selection Sort – Sort Exam Scores
+6. Heap Sort – Sort Job Applicants by Salary
+7. Counting Sort – Sort Student Ages
+
+### 🔹 LeetCode Problem Solved
+###### LeetCode: Find All Duplicates in an Array
+Approach:
+HashMap based solution
+
+### 🔹 Scenario-Based Problems
+1.🏧 ATM Dispenser Logic
+Context: Design logic for an ATM that dispenses the minimum number of notes for a given withdrawal amount.
+Concepts Used:Greedy approach,Conditional logic,Real-world problem modeling
+2.🏋️ FitTrack – Fitness Tracker System
+Scenario:Design a fitness tracking system using OOP principles.
+Classes: UserProfile, Workout
+Interface: ITrackable
+Types: CardioWorkout, StrengthWorkout
+Concepts Used: Abstraction, Inheritance, Polymorphism
+
+### 🌿 Branch Details
+1.datastructure-csharp-practice
+*Sorting Algorithms
+*LeetCode:Find All Duplicates in an Array
+*ATM Dispenser Logic(Scenario-Based)
+2.oops-csharp-practice
+*FitTrack – Fitness Tracker (Scenario-Based OOP Design)
