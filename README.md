@@ -581,3 +581,38 @@ Concepts Used: Abstraction, Inheritance, Polymorphism
 *ATM Dispenser Logic(Scenario-Based)
 2.oops-csharp-practice
 *FitTrack – Fitness Tracker (Scenario-Based OOP Design)
+
+-----
+
+### 📅 Date  12th January 2026
+
+#### 🔹 Scenario-Based Problems
+
+##### 1. Metal Factory Pipe Cutting – Maximize revenue from rod cuts.
+
+Scenario A: Optimal cuts for length 8.
+
+Scenario B: Add custom-length order.
+
+Scenario C: Visualize revenue for unoptimized cuts.
+
+##### 2. Custom Furniture Manufacturing – Cut wooden rods to maximize earnings.
+
+Scenario A: Best cut for 12ft rod.
+
+Scenario B: Adjust for waste constraint.
+
+Scenario C: Maximize revenue, minimize waste.
+
+##### 3. LoanBuddy – Loan Approval Automation – Automate personal loan approvals.
+
+Applicant & LoanApplication classes, IApprovable interface.
+
+EMI calculation, constructors for different loan types.
+
+Encapsulation, inheritance, polymorphism, access modifiers.
+
+#### 🔹 LeetCode Problem Solved
+
+Binary Search – Find target in a sorted array.
+
