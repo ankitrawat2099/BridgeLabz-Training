@@ -616,3 +616,7 @@ Encapsulation, inheritance, polymorphism, access modifiers.
 
 Binary Search – Find target in a sorted array.
 
+#### 🔹 Sorting alogrithm problems
+
+Submission of Linear Search and Binary Search.
+
