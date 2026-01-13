@@ -620,3 +620,26 @@ Binary Search – Find target in a sorted array.
 
 Submission of Linear Search and Binary Search.
 
+----
+
+### 📅 Date 13th January 2026
+
+🔹 Scenario-Based Problems
+
+BookBuddy – Digital Bookshelf App
+
+Scenario A: Add and store books using ArrayList in "Title - Author" format.
+Scenario B: Sort books alphabetically and search by author.
+Scenario C: Handle invalid book format and empty list using exception handling.
+
+CinemaTime – Movie Schedule Manager
+
+Scenario A: Add and display movie titles with showtimes.
+Scenario B: Search movies using keyword matching.
+Scenario C: Handle invalid time formats and index errors with exceptions.
+
+🔹 Assignment
+Algorithm’s Runtime Analysis & Big-O Notation.
+
+🔹 LeetCode Problem Solved
+Remove Nth Node From End of List.
