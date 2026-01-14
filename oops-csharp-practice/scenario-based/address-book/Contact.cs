@@ -5,6 +5,8 @@ using System.Text;
 namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
 {
     // Represents a single contact in the address book
+
+        //UC 1:Ability to create a Contacts in Address Book with first and last names, address,city, state, zip, phone number and email
     internal class Contact
     {
         public string FirstName { get; set; }   // Contact's first name

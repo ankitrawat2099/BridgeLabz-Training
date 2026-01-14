@@ -11,7 +11,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
         // Holds the details of a single contact
         private Contact contact;
 
-        //UC 1:Ability to create a Contacts in Address Book with first and last names, address,city, state, zip, phone number and email
+        //UC-2:Ability to add a new Contact to Address Book
         public void AddContact()
         {
             contact = new Contact(); // Create a new Contact object
@@ -43,7 +43,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
 
             Console.WriteLine("\nContact Added Successfully\n"); // Confirmation message
         }
-        //UC-2:Ability to add a new Contact to Address Book
+        //UC-3:Ability to add a new Contact to Address Book
         public void EditContact()
         {
             // Check if contact exists
@@ -84,7 +84,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
                 Console.WriteLine("Contact Not Found\n");
             }
         }
-
+        //UC-4:Ability to delete a person using person's name
         public void DeleteContact()
         {
             // Check if contact exists
