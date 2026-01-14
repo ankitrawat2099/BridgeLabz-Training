@@ -43,7 +43,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
 
             Console.WriteLine("\nContact Added Successfully\n"); // Confirmation message
         }
-        //UC-2:Ability to add a new Contact to Address Book
+        //UC-2:Ability to add a new contact to Address Book
         public void EditContact()
         {
             // Check if contact exists
