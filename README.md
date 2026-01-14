@@ -643,3 +643,22 @@ Algorithm’s Runtime Analysis & Big-O Notation.
 
 🔹 LeetCode Problem Solved
 Remove Nth Node From End of List.
+
+---
+
+### 📅 Date 14th January 2026
+
+🔹 Scenario-Based Problems
+Address Book System
+
+UC 1: Create a contact with first name, last name, address, city, state, zip, phone number, and email.
+
+UC 2: Add a new contact to the address book.
+
+UC 3: Edit an existing contact using their name.
+
+UC 4: Delete a contact using their name.
+
+🔹 LeetCode Problem Solved
+
+Linked List Cycle – Detect a cycle in a singly-linked list using Floyd’s Cycle Detection Algorithm.
