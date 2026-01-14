@@ -43,7 +43,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
 
             Console.WriteLine("\nContact Added Successfully\n"); // Confirmation message
         }
-        //UC-2:Ability to add a new contact to Address Book
+        //UC-2:Ability to add a new Contact to Address Book
         public void EditContact()
         {
             // Check if contact exists
@@ -84,5 +84,29 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
                 Console.WriteLine("Contact Not Found\n");
             }
         }
+
+        public void DeleteContact()
+        {
+            // Check if contact exists
+            if (contact == null)
+            {
+                Console.WriteLine("No contact available to delete\n");
+                return;
+            }
+
+            Console.Write("Enter First Name to Delete Contact: ");
+            string name = Console.ReadLine();
+
+            // Match contact by first name
+            if (contact.FirstName.Equals(name))
+            {
+                contact = null; // Removing reference deletes the contact
+                Console.WriteLine("\nContact Deleted Successfully\n");
+            }
+            else
+            {
+                Console.WriteLine("Contact Not Found\n");
+            }
         }
+    }
 }
