@@ -9,5 +9,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
     {
         // Method to add a new contact
         void AddContact();
+        //method to edit contact
+        void EditContact();
     }
 }

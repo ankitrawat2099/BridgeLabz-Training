@@ -16,6 +16,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
             {
                 // Display menu options
                 Console.WriteLine("1. Add Contact");
+                Console.WriteLine("2. Edit Contact");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter your choice: ");
 
@@ -26,6 +27,10 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
                 {
                     case 1:
                         addressBook.AddContact(); // Call method to add a contact
+                        break;
+
+                    case 2:
+                        addressBook.EditContact();
                         break;
 
                     case 0:
