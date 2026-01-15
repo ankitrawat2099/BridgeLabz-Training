@@ -670,8 +670,8 @@ Linked List Cycle – Detect a cycle in a singly-linked list using Floyd’s Cyc
 ## Address Book System
 
 **Features Implemented (UC 5 - UC 10):**
-* **UC 5: Add multiple contacts to the address book. 
-* **UC 6: Refactor system to add multiple address books, each with a unique name
+* UC 5: Add multiple contacts to the address book. 
+* UC 6: Refactor system to add multiple address books, each with a unique name
 * **UC 7: Duplicate Check**
   * Prevented adding duplicate persons based on Person Name.
   * Used collection methods to search for duplicates.
