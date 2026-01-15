@@ -17,5 +17,20 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
         public string Zip { get; set; }         // ZIP code
         public string PhoneNumber { get; set; } // Phone number
         public string Email { get; set; }       // Email address
+
+
+        // UC-7: Override Equals to check duplicate person by name
+        public override bool Equals(object obj)
+        {
+            if (obj == null || !(obj is Contact))
+                return false;
+
+            Contact other = (Contact)obj;
+
+            return this.FirstName == other.FirstName &&
+                   this.LastName == other.LastName;
+        }
+
+
     }
 }

@@ -37,6 +37,16 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
             Console.Write("Enter Last Name: ");
             contact.LastName = Console.ReadLine();
 
+            // Duplicate check
+            for (int i = 0; i < count; i++)
+            {
+                if (contacts[i].Equals(contact))
+                {
+                    Console.WriteLine("Duplicate Contact Found. Cannot Add Same Person Again\n");
+                    return;
+                }
+            }
+
             Console.Write("Enter Address: ");
             contact.Address = Console.ReadLine();
 
