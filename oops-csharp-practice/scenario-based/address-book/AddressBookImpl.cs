@@ -108,5 +108,35 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
                 Console.WriteLine("Contact Not Found\n");
             }
         }
+
+        public void AddMultipleContactsMenu()
+        {
+            int choice;
+
+            do
+            {
+                Console.WriteLine("\n--- Add Multiple Contacts ---");
+                Console.WriteLine("1. Add New Contact");
+                Console.WriteLine("0. Go Back");
+                Console.Write("Enter Choice: ");
+
+                choice = Convert.ToInt32(Console.ReadLine());
+
+                switch (choice)
+                {
+                    case 1:
+                        AddContact();
+                        break;
+
+                    case 0:
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid Choice");
+                        break;
+                }
+
+            } while (choice != 0);
+        }
     }
 }
