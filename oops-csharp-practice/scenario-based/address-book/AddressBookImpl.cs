@@ -8,15 +8,29 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
 {
     internal class AddressBookImpl : IAddressBook
     {
-        // Holds the details of a single contact
-        private Contact contact;
+
+
+        private Contact[] contacts = new Contact[50];
+        private int count = 0;
+
+        public string Name; // Name of this Address Book
+
+        public AddressBookImpl(string name)
+        {
+            Name = name;
+        }
 
         //UC-2:Ability to add a new Contact to Address Book
         public void AddContact()
         {
-            contact = new Contact(); // Create a new Contact object
+            if (count >= contacts.Length)
+            {
+                Console.WriteLine("Address Book is Full\n");
+                return;
+            }
 
-            // Get contact details from user input
+            Contact contact = new Contact();
+
             Console.Write("Enter First Name: ");
             contact.FirstName = Console.ReadLine();
 
@@ -41,74 +55,70 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
             Console.Write("Enter Email: ");
             contact.Email = Console.ReadLine();
 
-            Console.WriteLine("\nContact Added Successfully\n"); // Confirmation message
+            contacts[count] = contact;
+            count++;
+
+            Console.WriteLine("Contact Added Successfully\n");
         }
         //UC-3:Ability to add a new Contact to Address Book
         public void EditContact()
         {
-            // Check if contact exists
-            if (contact == null)
-            {
-                Console.WriteLine("No contact available to edit\n");
-                return;
-            }
-
             Console.Write("Enter First Name to Edit Contact: ");
             string name = Console.ReadLine();
 
-            // Match contact using first name
-            if (contact.FirstName.Equals(name))
+            for (int i = 0; i < count; i++)
             {
-                Console.Write("Enter New Address: ");
-                contact.Address = Console.ReadLine();
+                if (contacts[i].FirstName == name)
+                {
+                    Console.Write("Enter New Address: ");
+                    contacts[i].Address = Console.ReadLine();
 
-                Console.Write("Enter New City: ");
-                contact.City = Console.ReadLine();
+                    Console.Write("Enter New City: ");
+                    contacts[i].City = Console.ReadLine();
 
-                Console.Write("Enter New State: ");
-                contact.State = Console.ReadLine();
+                    Console.Write("Enter New State: ");
+                    contacts[i].State = Console.ReadLine();
 
-                Console.Write("Enter New Zip: ");
-                contact.Zip = Console.ReadLine();
+                    Console.Write("Enter New Zip: ");
+                    contacts[i].Zip = Console.ReadLine();
 
-                Console.Write("Enter New Phone Number: ");
-                contact.PhoneNumber = Console.ReadLine();
+                    Console.Write("Enter New Phone Number: ");
+                    contacts[i].PhoneNumber = Console.ReadLine();
 
-                Console.Write("Enter New Email: ");
-                contact.Email = Console.ReadLine();
+                    Console.Write("Enter New Email: ");
+                    contacts[i].Email = Console.ReadLine();
 
-                Console.WriteLine("\nContact Updated Successfully\n");
+                    Console.WriteLine("\nContact Updated Successfully\n");
+                    return;
+                }
             }
-            else
-            {
-                Console.WriteLine("Contact Not Found\n");
-            }
+            Console.WriteLine("Contact Not Found\n");
         }
         //UC-4:Ability to delete a person using person's name
         public void DeleteContact()
         {
-            // Check if contact exists
-            if (contact == null)
-            {
-                Console.WriteLine("No contact available to delete\n");
-                return;
-            }
-
-            Console.Write("Enter First Name to Delete Contact: ");
+            Console.Write("Enter First Name to Delete: ");
             string name = Console.ReadLine();
 
-            // Match contact by first name
-            if (contact.FirstName.Equals(name))
+            for (int i = 0; i < count; i++)
             {
-                contact = null; // Removing reference deletes the contact
-                Console.WriteLine("\nContact Deleted Successfully\n");
+                if (contacts[i].FirstName == name)
+                {
+                    for (int j = i; j < count - 1; j++)
+                        contacts[j] = contacts[j + 1];
+
+                    contacts[count - 1] = null;
+                    count--;
+
+                    Console.WriteLine("Contact Deleted Successfully\n");
+                    return;
+                }
             }
-            else
-            {
-                Console.WriteLine("Contact Not Found\n");
-            }
+
+            Console.WriteLine("Contact Not Found\n");
         }
 
+        //UC-5:Ability to add multiple person to Address Book
         public void AddMultipleContactsMenu()
         {
             int choice;
