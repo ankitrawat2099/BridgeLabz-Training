@@ -10,6 +10,16 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
         private static string[] addressBookNames = new string[10]; // Names for uniqueness
         private static int bookCount = 0;
 
+        // UC-9 simulated dictionary using arrays
+        private static string[] cityNames = new string[50];
+        private static string[] cityPersons = new string[50];
+        private static int cityCount = 0;
+
+        private static string[] stateNames = new string[50];
+        private static string[] statePersons = new string[50];
+        private static int stateCount = 0;
+
+
         // Displays the main menu and handles user interactions
 
         public static void DisplayMenu()
@@ -22,6 +32,8 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
                 Console.WriteLine("1. Create New Address Book");
                 Console.WriteLine("2. Select Address Book");
                 Console.WriteLine("3. Search Person (City/State)");
+                Console.WriteLine("4. View Persons by City or State");
+
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter Choice: ");
 
@@ -38,6 +50,10 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
                     case 3:
                         SearchAcrossAddressBooks();
                         break;
+                    case 4:
+                        ViewPersonsByCityOrState();
+                        break;
+
                     case 0:
                         Console.WriteLine("Program Ended");
                         break;
@@ -169,5 +185,36 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
                     addressBooks[i].SearchByState(value);
             }
         }
+        //UC-9:Ability to view Persons by City or State
+        private static void ViewPersonsByCityOrState()
+        {
+            cityCount = 0;
+            stateCount = 0;
+
+            for (int i = 0; i < bookCount; i++)
+            {
+                addressBooks[i].AddToCityStateMap(
+                    cityNames, cityPersons, ref cityCount,
+                    stateNames, statePersons, ref stateCount
+                );
+            }
+
+            Console.WriteLine("1. View by City");
+            Console.WriteLine("2. View by State");
+
+            int choice = Convert.ToInt32(Console.ReadLine());
+
+            if (choice == 1)
+            {
+                for (int i = 0; i < cityCount; i++)
+                    Console.WriteLine($"{cityNames[i]} -> {cityPersons[i]}");
+            }
+            else if (choice == 2)
+            {
+                for (int i = 0; i < stateCount; i++)
+                    Console.WriteLine($"{stateNames[i]} -> {statePersons[i]}");
+            }
+        }
+
     }
 }
