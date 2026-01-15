@@ -15,5 +15,9 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
         void DeleteContact();
         //method for add multiple contacts menu
         void AddMultipleContactsMenu();
+        //method to serach by city
+        void SearchByCity(string city);
+        //method to search by state
+        void SearchByState(string state);
     }
 }

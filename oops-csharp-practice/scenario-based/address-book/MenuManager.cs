@@ -21,6 +21,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
                 Console.WriteLine("\n--- Multiple Address Book Menu ---");
                 Console.WriteLine("1. Create New Address Book");
                 Console.WriteLine("2. Select Address Book");
+                Console.WriteLine("3. Search Person (City/State)");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter Choice: ");
 
@@ -33,6 +34,9 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
                         break;
                     case 2:
                         SelectAddressBook();
+                        break;
+                    case 3:
+                        SearchAcrossAddressBooks();
                         break;
                     case 0:
                         Console.WriteLine("Program Ended");
@@ -145,6 +149,25 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
                 }
 
             } while (choice != 0); // Loop until user chooses to exit
+
+        }
+        //UC-8:Ability to search Person in a City or State across the multiple Addres search Result
+        private static void SearchAcrossAddressBooks()
+        {
+            Console.WriteLine("1. Search by City");
+            Console.WriteLine("2. Search by State");
+
+            int choice = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter value: ");
+            string value = Console.ReadLine();
+
+            for (int i = 0; i < bookCount; i++)
+            {
+                if (choice == 1)
+                    addressBooks[i].SearchByCity(value);
+                else
+                    addressBooks[i].SearchByState(value);
+            }
         }
     }
 }

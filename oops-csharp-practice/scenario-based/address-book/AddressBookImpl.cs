@@ -158,5 +158,25 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book
 
             } while (choice != 0);
         }
+
+        // UC-8:Ability to search Person in a City or State across the multiple Addres search Result
+        public void SearchByCity(string city)
+        {
+            for (int i = 0; i < count; i++)
+            {
+                if (contacts[i].City == city)
+                    Console.WriteLine($"{contacts[i].FirstName} {contacts[i].LastName} | {Name}");
+            }
+        }
+
+        public void SearchByState(string state)
+        {
+            for (int i = 0; i < count; i++)
+            {
+                if (contacts[i].State == state)
+                    Console.WriteLine($"{contacts[i].FirstName} {contacts[i].LastName} | {Name}");
+            }
+        }
+
     }
 }
