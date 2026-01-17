@@ -738,3 +738,21 @@ Features Implemented:
 Merged two sorted linked lists into a single sorted list.
 
 Applied core Linked List traversal and pointer logic.
+
+------
+
+### 📅 Date: 17th January 2026
+
+🛒 FlashDealz – Product Sorting by Discount (Quick Sort)
+
+Used Quick Sort to efficiently sort large discount data
+
+Optimized performance for flash sales
+
+🏃 FitnessTracker – Daily Step Count Ranking (Bubble Sort)
+
+Used Bubble Sort for small, frequently updated step data
+
+Enabled real-time ranking updates
+
+💻 LeetCode – Valid Parenthesis
