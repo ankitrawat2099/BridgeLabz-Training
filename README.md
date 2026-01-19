@@ -756,3 +756,19 @@ Used Bubble Sort for small, frequently updated step data
 Enabled real-time ranking updates
 
 💻 LeetCode – Valid Parenthesis
+
+------
+
+### 📅 Date: 19th January 2026
+
+📦 ParcelTracker – Delivery Chain Management (Singly Linked List)
+Implemented a singly linked list to track parcel delivery stages sequentially
+
+Enabled forward traversal, custom checkpoints, and handled missing parcels using null pointers
+
+📝 ExamProctor – Online Exam Review System (Stack + HashMap)
+Used a stack to record question navigation history during an exam
+
+Stored student answers using a HashMap and calculated scores through dedicated functions
+
+💻 LeetCode –Reverse Words in a String
