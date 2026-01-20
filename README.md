@@ -772,3 +772,39 @@ Used a stack to record question navigation history during an exam
 Stored student answers using a HashMap and calculated scores through dedicated functions
 
 💻 LeetCode –Reverse Words in a String
+
+--------
+
+### 📅 Date: 20th January 2026
+
+### Scenario-Based
+
+#### 🧩 **Backtracking – Password Cracker Simulator**
+Developed a backtracking algorithm to try all possible combinations and unlock a vault.
+
+Scenario A: Generated all strings of length n.
+
+Scenario B: Stopped recursion once the password was matched.
+
+Scenario C: Visualized time and space complexity of the backtracking approach.
+
+#### 📦 **Sorting Aadhar Numbers using Radix Sort**
+Implemented radix sort to efficiently sort 12-digit Aadhar numbers.
+
+Scenario A: Sorted all Aadhar numbers in ascending order.
+
+Scenario B: Performed binary search to find a particular number after sorting.
+
+Scenario C: Maintained order of entries with the same prefix to ensure stability.
+
+#### Assignment
+
+#### **C# Generics**
+Applied generics to build type-safe, reusable components across multiple scenarios
+
+####  **Collections Submission**
+Submitted assignments demonstrating usage of various C# collections like List, Stack, Queue, and Dictionary.
+
+#### LeetCode
+
+ Isomorphic Strings
