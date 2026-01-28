@@ -938,3 +938,18 @@ An ambulance brings patients and navigates through these units to find the neare
 1. HealthCheckPro – API Metadata Validator
 2. EventTracker – Auto Audit System (Annotations + Reflection + JSON)
 📌Branch:collections-csharp-practice
+
+---
+
+### 📅 Date: 28th January 2026
+Scenario-Based Projects
+
+AeroVigil – Airline Flight Validation System
+Validated flight details, passenger capacity, and fuel levels to ensure smooth airline operations.
+
+AeroVigil – Flight Validation System (Duplicate/Extended)
+Implemented comprehensive checks for flight number, name, passengers, and fuel using exception handling.
+
+Assignments
+
+CSV Data Handling: Implemented CSV parsing and validation for structured data submission.
