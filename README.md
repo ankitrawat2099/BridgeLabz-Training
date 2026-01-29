@@ -974,7 +974,3 @@ Tracks cargo vessel performance across different routes.
 Records and retrieves vessel data.
 
 Identifies high-performing vessels to improve efficiency.
-
-Assignments
-
-Implemented C# classes and methods for data recording and retrieval.
