@@ -953,3 +953,28 @@ Implemented comprehensive checks for flight number, name, passengers, and fuel u
 Assignments
 
 CSV Data Handling: Implemented CSV parsing and validation for structured data submission.
+
+---
+
+
+### 📅 Date: 29th January 2026
+Scenario-Based Projects
+1️⃣ StreamBuzz – Creator Engagement Tracker
+
+Tracks creators’ engagement over 4 weeks using the CreatorStats class.
+
+Records name and weekly like counts.
+
+Helps identify popular creators.
+
+2️⃣ OceanFleet – Vessel Performance Analytics
+
+Tracks cargo vessel performance across different routes.
+
+Records and retrieves vessel data.
+
+Identifies high-performing vessels to improve efficiency.
+
+Assignments
+
+Implemented C# classes and methods for data recording and retrieval.
