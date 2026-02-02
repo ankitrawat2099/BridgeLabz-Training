@@ -974,3 +974,22 @@ Tracks cargo vessel performance across different routes.
 Records and retrieves vessel data.
 
 Identifies high-performing vessels to improve efficiency.
+
+----
+
+### 📅 2nd February 2026
+🧩 Scenario 1: Lexical Twist
+
+Developed a puzzle-based program that processes two words and performs different transformations and analyses based on given conditions.
+
+🚚 Scenario 2: FutureLogistics
+
+Built a basic application to automate the billing system, maintaining goods transport records and displaying billing details as required.
+
+📂 Assignment
+
+Submission of JSON Data
+
+💻 LeetCode
+
+Reverse Linked List II
