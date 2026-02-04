@@ -998,11 +998,32 @@ Reverse Linked List II
 
 ### 📅 03 February 2026
 
-####### 🧩 Scenario 1: Flip Key
+🧩 Scenario 1: Flip Key
 Developed a string manipulation utility to help students understand ASCII values. The program removes characters with even ASCII codes from a word and reverses the remaining characters, demonstrating data transformation concepts used in encoding and security.
 
-####### 🤖 Scenario 2: Factory Robot Hazard Analyzer
+ 🤖 Scenario 2: Factory Robot Hazard Analyzer
 Built a system to evaluate the hazard risk score of a factory robot based on arm precision, worker density, and machinery state. The application validates inputs, calculates risk scores, and handles invalid cases using a custom exception.
 
-####### 💻 LeetCode
+💻 LeetCode
 Divide Two Integers
+
+--
+
+### 📅 04th February 2026
+1. SQL & Database Work
+
+Practiced Normalization (up to 3NF) and designed ER diagrams.
+
+Implemented DDL, DML, DCL operations on a sample database (student_records).
+
+Tested table creation, data insertion, updates, deletion, indexing, and window functions.
+
+2. Assignment
+
+Completed multi-threading assignment for payroll management.
+
+Implemented threaded employee insertion and update operations.
+
+3. LeetCode Practice
+
+Solved: Longest Common Prefix problem.
