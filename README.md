@@ -1027,3 +1027,29 @@ Implemented threaded employee insertion and update operations.
 3. LeetCode Practice
 
 Solved: Longest Common Prefix problem.
+
+----
+
+### 📅 09th February 2026
+
+# 🏥 Healthy Clinic App
+A simple **Healthy Clinic Management Application** designed to manage patients, doctors, appointments, and basic clinic operations. This app focuses on clean workflows, easy usage, and real‑world clinic scenarios.
+---
+## 📌 Purpose of the Application
+The Healthy Clinic App helps clinics to:
+* Manage patient records
+* Manage doctor details
+* Book and track appointments
+* Reduce manual paperwork
+* Improve clinic efficiency
+
+## 🧑‍⚕️ Admin Use Cases
+## 👨‍⚕️ Doctor Use Cases
+## 🧾 Appointment Management Use Cases
+## 💊 Prescription Use Cases
+## 📊 Reports & Records Use Cases
+📌Branch:dbms-csharp-practice
+
+### 3. LeetCode Practice
+Solved: Combine Two tables
+📌Branch:dbms-csharp-practice
