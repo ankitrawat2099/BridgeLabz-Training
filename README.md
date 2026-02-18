@@ -1076,3 +1076,31 @@ updated in 📌Branch:multithreading-csharp-practice
 
  🏥 AddressBook System
 updated in 📌Branch:ioprogramming-csharp-practice
+
+----
+
+### 📅 18th February 2026
+📌 Scenario Based Projects
+🎓 1. College Admission Portal
+
+A database-driven system to manage student admissions, course selection, and enrollment processes efficiently.
+
+📌 Branch: multithreading-csharp-practice
+
+🔔 2. Notify Hub
+
+A notification management system designed to send and track alerts/messages across users.
+
+📌 Branch: multithreading-csharp-practice
+
+🏠 3. TechVilla (Housing Management System)
+
+A housing management system designed to manage residents, properties, maintenance requests, and related operations efficiently.
+
+📌 Branch: multithreading-csharp-practice
+
+📇 4. Address Book System (Refactored with ADO.NET)
+
+A contact management system refactored using ADO.NET for database connectivity.
+
+📌 Branch: dbms-csharp-practice.
